@@ -25,6 +25,9 @@ Where you replace `{TaserFolder}` with an absolute path to the Taser project fol
 
 The `POLICY_FILE` contains the predefined set of sinks, `POLICY_OUT` is for setting the model output file, and `LIBRARY_UNDER_TEST` specifies which module the taint specifiactions are generated for.
 
+## Data
+The [new-lgtm-alerts](data/new-lgtm-alerts.md) contains the set of LGTM alerts reports from RQ3 in the paper.
+
 ## License
 
 Copyright 2020 the authors
