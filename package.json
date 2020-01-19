@@ -1,0 +1,32 @@
+{
+  "name": "aintnodetaint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "c": "cd src && tsc",
+    "postinstall": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.119",
+    "@types/node": "^10.14.4",
+    "callsites": "^3.1.0",
+    "core-js": "^2.6.3",
+    "lodash": "^4.17.11",
+    "typescript": "^3.5.2",
+    "acorn": "^6.1.1",
+    "estraverse": "^4.2.0",
+    "@types/acorn": "^4.0.5",
+    "@types/estraverse": "^0.0.6",
+    "is-builtin-module": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "chai": "^4.2.0",
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7"
+  }
+}

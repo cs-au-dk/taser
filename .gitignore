@@ -1,0 +1,6 @@
+yarn.lock
+model.json
+*.swp
+node_modules
+src/*.js
+test/*.js

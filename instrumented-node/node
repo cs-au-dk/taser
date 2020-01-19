@@ -1,0 +1,4 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+ANALYSIS_LOC="${DIR}/../src/AintNodeTaint.js"
+mx -p $NODE_PROF_LOCATION jalangi --analysis ${ANALYSIS_LOC} $@
