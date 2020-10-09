@@ -1,0 +1,146 @@
+(member name (member * (parameter 0 (member withCallback (root https://www.npmjs.com/package/thenify-all))))),taint,CodeInjection,2.7.0;2.1.0;2.34.0;1.0.0,49
+(member name (parameter 0 (member withCallback (root https://www.npmjs.com/package/thenify)))),taint,CodeInjection,2.7.0;2.1.0;2.34.0;0.5.0,47
+(parameter 0 (member readFileSync (root https://www.npmjs.com/package/graceful-fs))),taint,TaintedPath,3.0.12;3.0.12;1.3.12;0.13.22;4.0.0;0.4.0;0.4.0;2.0.5;2.4.0;2.0.0;3.0.11;3.0.11,37
+(member * (member * (parameter 0 (root https://www.npmjs.com/package/path-to-regexp)))),taint,RegExpInjection,4.17.1;0.1.7,32
+(parameter 0 (root https://www.npmjs.com/package/regex-not)),taint,RegExpInjection,1.19.1;3.2.0;2.1.6;2.4.4;3.1.1;4.0.2;4.0.0;unknown,29
+(parameter 0 (root https://www.npmjs.com/package/to-regex)),taint,RegExpInjection,1.19.1;3.2.0;2.1.6;2.4.4;3.1.1;4.0.2;4.0.0;unknown,29
+(member version (parameter 0 (root https://www.npmjs.com/package/github))),taint,TaintedPath,0.1.16;0.2.4,23
+(parameter 0 (member find (root https://www.npmjs.com/package/node-pre-gyp))),taint,TaintedPath,2.1.3;3.0.2;2.1.3;0.11.0,20
+(parameter 0 (member find (root https://www.npmjs.com/package/node-pre-gyp/lib/pre-binding))),taint,TaintedPath,1.7.3,20
+(parameter 0 (member readFile (root https://www.npmjs.com/package/graceful-fs))),taint,TaintedPath,2.0.3;1.3.12;1.0.0;2.0.3,16
+(parameter 0 (return (member withCallback (root https://www.npmjs.com/package/thenify)))),taint,TaintedPath,2.7.0;2.7.0;0.5.0,11
+(parameter 0 (parameter 0 (parameter 0 (return (root https://www.npmjs.com/package/amdefine))))),taint,TaintedPath,0.3.2;1.11.0;9.0.8;1.5.0;5.2.1;2.3.1;9.0.8,11
+(parameter 0 (member sync (root https://www.npmjs.com/package/rimraf))),taint,TaintedPath,0.12.0;2.6.3;0.12.0;0.5.0,11
+(parameter 0 (member writeFileSync (root https://www.npmjs.com/package/graceful-fs))),taint,TaintedPath,3.0.12;0.13.1;0.4.0;2.4.0;3.0.11,10
+(parameter 0 (member sync (root https://www.npmjs.com/package/glob))),taint,RegExpInjection,unknown;4.12.0;4.1.0;1.2.0,9
+(parameter 0 (member load (root https://www.npmjs.com/package/yamljs))),taint,TaintedPath,0.2.10,9
+(parameter 0 (member readFileSync (return (member gracefulify (root https://www.npmjs.com/package/graceful-fs))))),taint,TaintedPath,unknown;unknown;5.10.0;5.10.0;5.10.0;5.10.0;unknown;unknown,8
+(parameter 0 (member readFileSync (member fs (return (root https://www.npmjs.com/package/lazy-cache))))),taint,TaintedPath,2.0.2,8
+(parameter 0 (root https://www.npmjs.com/package/cross-spawn)),taint,CommandInjection,1.23.1;5.1.0;2.2.1,8
+(parameter 0 (member exec (root https://www.npmjs.com/package/child-process-promise))),taint,CommandInjection,1.1.0,8
+(parameter 1 (member match (root https://www.npmjs.com/package/minimatch))),taint,RegExpInjection,0.3.0;1.0.2,8
+(parameter 0 (member parseFile (root https://www.npmjs.com/package/yamljs))),taint,TaintedPath,0.2.10,8
+(member unescapePrefix (member interpolation (parameter 0 (member init (root https://www.npmjs.com/package/i18next))))),taint,RegExpInjection,8.4.3,7
+(parameter 0 (member writeFile (root https://www.npmjs.com/package/graceful-fs))),taint,TaintedPath,3.0.12;3.0.11,6
+(member name (parameter 0 (root https://www.npmjs.com/package/thenify))),taint,CodeInjection,1.3.0,6
+(member name (member * (parameter 0 (root https://www.npmjs.com/package/thenify-all)))),taint,CodeInjection,1.3.0,6
+(parameter 0 (member sync (root https://www.npmjs.com/package/command-exists))),taint,CommandInjection,1.2.8,6
+(member filename (parameter 0 (member fn (parameter 0 (parameter 0 (member queue (root https://www.npmjs.com/package/async))))))),taint,TaintedPath,0.10.11;1.8.0,6
+(parameter 0 (root https://www.npmjs.com/package/lodash.defaults)),taint,CodeInjection,2.4.1,5
+(parameter 0 (root https://www.npmjs.com/package/lowdb)),taint,TaintedPath,0.5.1;0.13.1,5
+(parameter 0 (root https://www.npmjs.com/package/glob)),taint,RegExpInjection,7.0.6;2.1.0;1.2.0,4
+(parameter 0 (member toFunction (return (return (return (return (root https://www.npmjs.com/package/generate-function))))))),taint,CodeInjection,5.4.1;3.19.0;1.1.1;3.19.0,4
+(member end (parameter 2 (root https://www.npmjs.com/package/path-to-regexp))),taint,RegExpInjection,4.5.1,4
+(member name (member exec (parameter 0 (member withCallback (root https://www.npmjs.com/package/thenify-all))))),taint,CodeInjection,2.7.0,4
+(parameter 0 (member parse (root https://www.npmjs.com/package/content-type))),taint,TaintedPath,2.34.0;2.34.0,4
+(member filter (parameter 0 (root https://www.npmjs.com/package/require-all))),taint,RegExpInjection,2.2.0,4
+(parameter 0 (member readFile (return (root https://www.npmjs.com/package/pify)))),taint,TaintedPath,4.2.0,3
+(parameter 0 (root https://www.npmjs.com/package/create-error-class)),taint,CodeInjection,4.2.0,3
+(parameter 0 (root https://www.npmjs.com/package/decompress)),taint,TaintedPath,4.2.0,3
+(member interpolate (return (return (parameter 0 (root https://www.npmjs.com/package/lazy-cache))))),taint,RegExpInjection,2.0.2,3
+(member source (member evaluate (return (return (parameter 0 (root https://www.npmjs.com/package/lazy-cache)))))),taint,RegExpInjection,2.0.2,3
+(parameter 0 (root https://www.npmjs.com/package/require-all)),taint,TaintedPath,2.0.0,3
+(parameter 0 (return (return (root https://www.npmjs.com/package/wrappy)))),taint,RegExpInjection,1.4.0;1.2.0;1.2.0,3
+(member name (member exec (parameter 0 (root https://www.npmjs.com/package/thenify-all)))),taint,CodeInjection,1.3.0,3
+(member * (parameter 0 (member parse (root https://www.npmjs.com/package/esprima)))),taint,RegExpInjection,1.1.0-dev-harmony,3
+(parameter 0 (member parseSync (root https://www.npmjs.com/package/iniparser))),taint,TaintedPath,1.0.5,3
+(parameter 0 (root https://www.npmjs.com/package/win-spawn)),taint,CommandInjection,0.8.4,3
+(member prefix (parameter 0 (member listener (return (member createServer (root https://www.npmjs.com/package/sockjs)))))),taint,RegExpInjection,0.8.4,3
+(parameter 0 (member readJSON (root https://www.npmjs.com/package/archiver/))),taint,TaintedPath,unknown;unknown,2
+(parameter 0 (member openUri (member connection (root https://www.npmjs.com/package/mongoose)))),taint,NoSQL,5.6.9;5.6.9,2
+(member strict (parameter 2 (root https://www.npmjs.com/package/path-to-regexp))),taint,RegExpInjection,5.4.2,2
+(parameter 0 (member import (instance (root https://www.npmjs.com/package/sequelize)))),taint,TaintedPath,3.35.1;3.35.1,2
+(member sourceType (parameter 1 (member parse (root https://www.npmjs.com/package/acorn)))),taint,RegExpInjection,3.3.0,2
+(parameter 0 (root https://www.npmjs.com/package/humanize-ms)),taint,RegExpInjection,2.34.0,2
+(parameter 0 (member spawn (root https://www.npmjs.com/package/child-process-promise))),taint,CommandInjection,2.2.1,2
+(member dirname (parameter 0 (root https://www.npmjs.com/package/require-all))),taint,TaintedPath,2.2.0,2
+(member dialect (parameter 3 (root https://www.npmjs.com/package/sequelize))),taint,TaintedPath,2.1.3;2.1.3,2
+(parameter 0 (member writeFile (member fs (return (root https://www.npmjs.com/package/lazy-cache))))),taint,TaintedPath,2.0.2,2
+(parameter 0 (root https://www.npmjs.com/package/rimraf)),taint,TaintedPath,1.3.12;2.6.1,2
+(parameter 0 (member rmdirSync (root https://www.npmjs.com/package/graceful-fs))),taint,TaintedPath,1.2.3;1.2.3,2
+(parameter 1 (root https://www.npmjs.com/package/minimatch)),taint,RegExpInjection,1.2.1;3.0.4,2
+(parameter 0 (return (root https://www.npmjs.com/package/wrappy))),taint,RegExpInjection,1.2.0;1.2.0,2
+(parameter 0 (root https://www.npmjs.com/package/array-uniq)),taint,RegExpInjection,1.2.0;1.2.0,2
+(member index (parameter 0 (member html (root https://www.npmjs.com/package/js-beautify)))),taint,RegExpInjection,1.10.2;1.10.2,2
+(parameter 0 (member html (root https://www.npmjs.com/package/js-beautify))),taint,RegExpInjection,1.10.2;1.10.2,2
+(parameter 0 (member removeSync (root https://www.npmjs.com/package/fs-promise))),taint,TaintedPath,1.0.0,2
+(parameter 0 (member configure (root https://www.npmjs.com/package/log4js))),taint,TaintedPath,0.6.38;0.6.38,2
+(parameter 0 (member get (instance (root https://www.npmjs.com/package/cookies)))),taint,RegExpInjection,0.5.0;0.5.0,2
+(parameter 0 (root https://www.npmjs.com/package/optional)),taint,TaintedPath,0.17.0,2
+(parameter 0 (member readFileSync (return (member require (root https://www.npmjs.com/package/adm-zip/))))),taint,TaintedPath,unknown,1
+(parameter 0 (member scan (instance (member Scanner (root https://www.npmjs.com/package/mustache/))))),taint,RegExpInjection,unknown,1
+(parameter 1 (root https://www.npmjs.com/package/gulp-if/)),taint,TaintedPath,unknown,1
+(parameter 1 (member match (root https://www.npmjs.com/package/minimatch/))),taint,RegExpInjection,unknown,1
+(parameter 0 (member readFileSync (return (member require (member FileSystem (root https://www.npmjs.com/package/adm-zip/)))))),taint,TaintedPath,unknown,1
+(parameter 0 (root https://www.npmjs.com/package/nyc/)),taint,CommandInjection,unknown,1
+(parameter 0 (member sync (root https://www.npmjs.com/package/command-exists/))),taint,CommandInjection,unknown,1
+(parameter 0 (root https://www.npmjs.com/package/liftoff/)),taint,TaintedPath,unknown,1
+(parameter 0 (root https://www.npmjs.com/package/vinyl-fs/)),taint,TaintedPath,unknown,1
+(parameter 1 (root https://www.npmjs.com/package/minimatch/)),taint,RegExpInjection,unknown,1
+(parameter 0 (root https://www.npmjs.com/package/svgo/)),taint,TaintedPath,unknown,1
+(parameter 0 (member copy (root https://www.npmjs.com/package/copy-paste))),taint,CommandInjection,unknown,1
+(parameter 0 (member scanUntil (instance (member Scanner (root https://www.npmjs.com/package/mustache/))))),taint,RegExpInjection,unknown,1
+(parameter 1 (root https://www.npmjs.com/package/mongoose/)),taint,TaintedPath,unknown,1
+(parameter 0 (member enableNetConnect (root https://www.npmjs.com/package/nock))),taint,RegExpInjection,9.6.1,1
+(member path (parameter 0 (member config (root https://www.npmjs.com/package/dotenv)))),taint,TaintedPath,6.2.0,1
+(parameter 0 (root https://www.npmjs.com/package/debug-log)),taint,RegExpInjection,5.4.1,1
+(parameter 1 (member sync (root https://www.npmjs.com/package/cross-spawn))),taint,CommandInjection,5.1.0,1
+(parameter 0 (member sync (root https://www.npmjs.com/package/cross-spawn))),taint,CommandInjection,5.1.0,1
+(parameter 0 (root https://www.npmjs.com/package/lodash.assigninwith)),taint,CodeInjection,4.0.2,1
+(parameter 0 (member _addPattern (member _gitignore (return (root https://www.npmjs.com/package/xtend))))),taint,RegExpInjection,4.0.2,1
+(parameter 0 (member _createRule (member _gitignore (return (root https://www.npmjs.com/package/xtend))))),taint,RegExpInjection,4.0.2,1
+(parameter 2 (root https://www.npmjs.com/package/lodash._basecopy)),taint,CodeInjection,3.6.2,1
+(parameter 0 (member readFile (return (member promisifyAll (root https://www.npmjs.com/package/bluebird))))),taint,TaintedPath,3.5.5,1
+(member url (member users (parameter 0 (member setData (member router (root https://www.npmjs.com/package/jquery)))))),taint,RegExpInjection,3.4.1,1
+(member url (member home (parameter 0 (member setData (member router (root https://www.npmjs.com/package/jquery)))))),taint,RegExpInjection,3.4.1,1
+(parameter 0 (return (root https://www.npmjs.com/package/esm))),taint,TaintedPath,3.0.48,1
+(parameter 0 (member readConfigFile (root https://www.npmjs.com/package/typescript))),taint,TaintedPath,2.9.1,1
+(parameter 0 (member readFile (member sys (root https://www.npmjs.com/package/typescript)))),taint,TaintedPath,2.9.1,1
+(parameter 0 (member parseComponent (root https://www.npmjs.com/package/vue-template-compiler))),taint,RegExpInjection,2.6.10,1
+(parameter 0 (member renderFile (root https://www.npmjs.com/package/ejs))),taint,TaintedPath,2.6.1,1
+(parameter 0 (return (return (root https://www.npmjs.com/package/wrappy)))),taint,TaintedPath,2.34.0,1
+(member baseUrl (parameter 0 (member config (root https://www.npmjs.com/package/requirejs)))),taint,TaintedPath,2.3.6,1
+(parameter 0 (member locale (root https://www.npmjs.com/package/moment))),taint,TaintedPath,2.24.0,1
+(parameter 0 (root https://www.npmjs.com/package/require_optional)),taint,TaintedPath,2.2.34,1
+(parameter 0 (return (root https://www.npmjs.com/package/thunkify))),taint,TaintedPath,2.1.2,1
+(parameter 0 (member read (root https://www.npmjs.com/package/gray-matter))),taint,TaintedPath,2.1.1,1
+(parameter 0 (member obj (root https://www.npmjs.com/package/through2))),taint,TaintedPath,2.0.5,1
+(member negation-prefix (member configuration (parameter 1 (member detailed (root https://www.npmjs.com/package/yargs-parser))))),taint,RegExpInjection,13.3.0,1
+(parameter 0 (root https://www.npmjs.com/package/extract-zip)),taint,TaintedPath,1.6.7,1
+(parameter 0 (member __get__ (return (root https://www.npmjs.com/package/morgan)))),taint,CodeInjection,1.6.1,1
+(parameter 0 (member promiseDispatch (member promise (return (member defer (root https://www.npmjs.com/package/q)))))),taint,RegExpInjection,1.5.1,1
+(parameter 0 (member readFileSync (root https://www.npmjs.com/package/mz/fs))),taint,TaintedPath,1.3.0,1
+(parameter 0 (return (root https://www.npmjs.com/package/thenify))),taint,TaintedPath,1.3.0,1
+(parameter 0 (root https://www.npmjs.com/package/array-uniq)),taint,TaintedPath,1.2.0,1
+(parameter 0 (member sync (root https://www.npmjs.com/package/globby))),taint,RegExpInjection,1.2.0,1
+(member * (parameter 0 (root https://www.npmjs.com/package/array-uniq))),taint,CodeInjection,1.2.0,1
+(parameter 1 (return (return (root https://www.npmjs.com/package/wrappy)))),taint,RegExpInjection,1.2.0,1
+(parameter 0 (root https://www.npmjs.com/package/array-union)),taint,RegExpInjection,1.2.0,1
+(member * (parameter 0 (root https://www.npmjs.com/package/array-uniq))),taint,RegExpInjection,1.2.0,1
+(parameter 0 (member parse (root https://www.npmjs.com/package/bytes))),taint,RegExpInjection,1.19.0,1
+(parameter 1 (member hasLongerLines (root https://www.npmjs.com/package/libmime))),taint,RegExpInjection,1.11.0,1
+(parameter 0 (member sync (root https://www.npmjs.com/package/execa))),taint,CommandInjection,1.1.2,1
+(member source (parameter 0 (root https://www.npmjs.com/package/clone))),taint,RegExpInjection,1.0.3,1
+(member name (member ftruncate (parameter 0 (member withCallback (root https://www.npmjs.com/package/thenify-all))))),taint,CodeInjection,1.0.0,1
+(member * (parameter 1 (member installHandlers (return (member createServer (root https://www.npmjs.com/package/sockjs)))))),taint,RegExpInjection,0.8.4,1
+(parameter 0 (member rmdir (root https://www.npmjs.com/package/graceful-fs))),taint,TaintedPath,0.8.3,1
+(member code (parameter 0 (member compile (member compiler (root https://www.npmjs.com/package/pegjs))))),taint,CodeInjection,0.8.0,1
+(parameter 0 (member handlebars (root https://www.npmjs.com/package/consolidate))),taint,TaintedPath,0.8.0,1
+(member * (parameter 0 (root https://www.npmjs.com/package/for-own))),taint,RegExpInjection,0.5.3,1
+(parameter 0 (member shell (root https://www.npmjs.com/package/execa))),taint,CommandInjection,0.5.1,1
+(parameter 0 (member get (return (root https://www.npmjs.com/package/cookies)))),taint,RegExpInjection,0.5.1,1
+(parameter 0 (member writeJsonSync (root https://www.npmjs.com/package/fs-promise))),taint,TaintedPath,0.5.0,1
+(parameter 0 (member readFile (root https://www.npmjs.com/package/jsonfile))),taint,TaintedPath,0.5.0,1
+(parameter 0 (member createClient (root https://www.npmjs.com/package/soap))),taint,TaintedPath,0.4.7,1
+(member outside (parameter 0 (root https://www.npmjs.com/package/fastparse))),taint,RegExpInjection,0.4.5,1
+(member inside (parameter 0 (root https://www.npmjs.com/package/fastparse))),taint,RegExpInjection,0.4.5,1
+(parameter 0 (member underscore (root https://www.npmjs.com/package/consolidate))),taint,TaintedPath,0.4.0,1
+(member url (member * (parameter 7 (root https://www.npmjs.com/package/deep-extend)))),taint,TaintedPath,0.4.0,1
+(parameter 0 (member readFile (root https://www.npmjs.com/package/fs-promise))),taint,TaintedPath,0.3.1,1
+(parameter 0 (member readFileSync (root https://www.npmjs.com/package/fs-promise))),taint,TaintedPath,0.3.1,1
+(parameter 0 (root https://www.npmjs.com/package/execa)),taint,CommandInjection,0.2.2,1
+(parameter 0 (member read (root https://www.npmjs.com/package/lowdb/lib/file-async))),taint,TaintedPath,0.13.1,1
+(parameter 0 (member swig (root https://www.npmjs.com/package/consolidate))),taint,TaintedPath,0.10.0,1
+(member source (member * (member * (member * (member * (parameter 0 (root https://www.npmjs.com/package/clone))))))),taint,RegExpInjection,0.1.19,1
+(member source (member * (member * (member * (parameter 0 (root https://www.npmjs.com/package/clone)))))),taint,RegExpInjection,0.1.19,1
+(member pattern (parameter 1 (member sync (return (return (return (root https://www.npmjs.com/package/lazy-cache))))))),taint,RegExpInjection,0.1.0,1
