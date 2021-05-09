@@ -17,7 +17,7 @@
     "core-js": "^2.6.3",
     "lodash": "^4.17.19",
     "typescript": "^3.5.2",
-    "acorn": "^6.1.1",
+    "acorn": "^6.4.1",
     "estraverse": "^4.2.0",
     "@types/acorn": "^4.0.5",
     "@types/estraverse": "^0.0.6",
