@@ -1,6 +1,6 @@
 ## Taser
 This repository contains the Taser tool for generating taint specifications for Node.js modules, as described in the
-2020 ICSE paper *Extracting Taint Specifications for JavaScript Libraries* (Link will follow later). 
+2020 ICSE paper [*Extracting Taint Specifications for JavaScript Libraries*](https://software-lab.org/publications/icse2020_Taser.pdf). 
 Taser uses a dynamic analysis to monitor how an application (client) interacts with a module (library).
 Based on the recorded observations, Taser builds a taint specification model of the module consisting of taint propagations and additional sinks.
 The taint propagations relate tainted entry points of the module, e.g., function arguments, with exit points of the library, e.g., function return values.
