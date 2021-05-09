@@ -15,7 +15,7 @@
     "@types/node": "^10.14.4",
     "callsites": "^3.1.0",
     "core-js": "^2.6.3",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "typescript": "^3.5.2",
     "acorn": "^6.1.1",
     "estraverse": "^4.2.0",
